@@ -38,14 +38,10 @@
     text-align: center;
     font: 35px Tiltillium, sans-serif;
     font-weight: bold;
-    color: white;
+    color: #676767;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-left: 575px;
-    margin-right: 575px;
-    background-color: #676767;
-    border: solid;
-    border-radius: 10px;
+
 }
 .container {
     text-align: center;
@@ -86,17 +82,12 @@
         color: #32586d;
         font: 30px Tiltillium, sans-serif;
         font-weight: bold;
-        text-decoration: underline;
+
     }
     .container1 h3 {
         font: 25px Tiltillium, sans-serif;
-        color: white;
-        background-color: #b3a568;
-        border-style: solid;
-        border-color: #b3a568;
-        border-radius: 20px;
-        margin-left: 300px;
-        margin-right: 300px;
+        color: #b3a568;
+
     }
     .container1 a {
         text-decoration: none;

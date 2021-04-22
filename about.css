@@ -46,11 +46,24 @@
 .column1 {
     width: 40%;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 125px;
     display: inline-block;
+    border: thick;
+    border-style: solid;
+    border-color: white;
+    background-color: #bdcccf;
 }
 
     .column1 h1 {
+        text-align: center;
+        font: 30px Tiltillium, sans-serif;
+        padding-left: 15px;
+        font-weight: bold;
+        color: #222D33;
+        padding-top: 5px;
+    }
+
+    .column1 h2 {
         text-align: center;
         font: 30px Tiltillium, sans-serif;
         padding-left: 15px;
@@ -73,6 +86,11 @@
     margin-top: 30px;
     margin-left: 30px;
     display: inline-block;
+    border: thick;
+    border-style: solid;
+    border-color: white;
+    background-color: #afafaf;
+    position: absolute;
 }
 
     .column2 h1 {
@@ -93,3 +111,22 @@
         border-color: white;*/
         padding: 10px;
     }
+.aboutMe {
+    background-color: #b3a568;
+    color: white;
+    font: 20px Tiltillium, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    border:thick;
+    border-color: white;
+}
+.image img{
+    display: inline-block;
+    width: 675px;
+    height: 190px;
+    position: absolute;
+    top: 680px;
+    right: 165px;
+
+}

@@ -52,7 +52,7 @@ body {
         font: 30px Tiltillium, sans-serif;
         padding-left: 15px;
         font-weight: bold;
-        color: #222D33;
+        color: #32586d;
         padding-top: 5px;
     }
     .columnMiddle p {
@@ -69,7 +69,7 @@ body {
     margin-left: 25px;
     margin-right: 25px;
     border-style: solid;
-    border-color: #32586d;
+    border-color: #b3a568;
     border-width: 15px;
 }
 #profile img {
@@ -87,7 +87,7 @@ body {
     margin-left: 30px;
 }
     .column h1 {
-        color: #222D33;
+        color: #32586d;
         font: 30px Tiltillium, sans-serif;
         padding: 10px;
         font-weight: bold;

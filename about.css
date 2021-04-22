@@ -47,10 +47,11 @@
     border-radius: 10px;
 }
 .column1 {
-    width: 40%;
+    width: 75%;
     margin-top: 30px;
-    margin-left: 125px;
-    display: inline-block;
+    margin-left: 270px;
+    margin-right: 200px;
+    display: block;
     border: thick;
     border-style: solid;
     border-color: white;
@@ -85,16 +86,24 @@
         border-color: white;*/
         padding: 10px;
     }
+.container{
+    display: inline-block;
+    width: 75%;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+}
 .column2 {
-    width: 40%;
-    margin-top: 30px;
-    margin-left: 30px;
+    width: 88%;
+    float: right;
     display: inline-block;
     border: thick;
     border-style: solid;
-    border-color: white;
-    background-color: #afafaf;
-    position: absolute;
+    border-color: #afafaf;
+    background-color: white;
+    margin-bottom: 15px;
+    margin-top: 40px;
 }
 
     .column2 h1 {
@@ -114,6 +123,11 @@
         /*border: solid;
         border-color: white;*/
         padding: 10px;
+        font-weight: bold;
+    }
+    .column2 ul {
+        font: 18px Tiltillium, sans-serif;
+        padding-left: 100px;
     }
 .aboutMe {
     background-color: #b3a568;
@@ -127,12 +141,9 @@
 }
 .image img {
     display: inline-block;
-    width: 675px;
-    height: 230px;
-    position: absolute;
-    top: 680px;
-    right: 157px;
-
+    width: 90%;
+    height: 90%;
+    float: right;
 }
 .footer {
     position: fixed;

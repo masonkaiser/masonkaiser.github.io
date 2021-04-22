@@ -1,0 +1,95 @@
+﻿body {
+    background-color: #F1F1F1;
+}
+
+.header {
+    background-color: #E1D6CB;
+    background-image: url(Fiesta.png);
+    background-size: 100%;
+    text-align: center;
+    padding: 18px;
+    font: 25px Tiltillium, sans-serif;
+    color: white;
+    text-shadow: 6px 3px #75675f;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
+
+    /* Navbar links */
+    .topnav a {
+        float: left;
+        display: block;
+        color: grey;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font: 20px Tiltillium, sans-serif;
+    }
+        /* Links - change color on hover */
+        .topnav a:hover {
+            background-color: #afafaf;
+            color: white;
+        }
+.toptitle h1 {
+    text-align: center;
+    font: 35px Tiltillium, sans-serif;
+    font-weight: bold;
+    color: #32586d;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 575px;
+    margin-right: 575px;
+}
+.column1 {
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+    .column1 h1 {
+        text-align: center;
+        font: 30px Tiltillium, sans-serif;
+        padding-left: 15px;
+        font-weight: bold;
+        color: #222D33;
+        padding-top: 5px;
+    }
+
+    .column1 p {
+        text-align: left;
+        font: 18px Tiltillium, sans-serif;
+        margin-left: 50px;
+        margin-right: 50px;
+        /*border: solid;
+        border-color: white;*/
+        padding: 10px;
+    }
+.column2 {
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+    .column2 h1 {
+        text-align: center;
+        font: 30px Tiltillium, sans-serif;
+        padding-left: 15px;
+        font-weight: bold;
+        color: #222D33;
+        padding-top: 5px;
+    }
+
+    .column2 p {
+        text-align: left;
+        font: 18px Tiltillium, sans-serif;
+        margin-left: 50px;
+        margin-right: 50px;
+        /*border: solid;
+        border-color: white;*/
+        padding: 10px;
+    }

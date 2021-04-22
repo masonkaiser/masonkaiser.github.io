@@ -1,0 +1,94 @@
+﻿/*Orange #C47559
+    #e2b988
+    #7ba3ab
+    #DAE5D4
+    #a7c5c5
+    #7c9673
+*/
+body {
+    background-color: #F1F1F1;
+}
+.header {
+    background-color: #E1D6CB;
+    background-image: url(Fiesta.png);
+    background-size: 100%;
+    /*background-image: linear-gradient(to bottom right, #DEE1DD, #C4CDC1, #99AEAD);
+    background-size: 100%;
+    background-repeat: no-repeat;*/
+    text-align: center;
+    padding: 18px;
+    font: 25px Tiltillium, sans-serif;
+    color: white;
+    text-shadow: 6px 3px #75675f;
+}
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
+
+    /* Navbar links */
+    .topnav a {
+        float: left;
+        display: block;
+        color: grey;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font: 20px Tiltillium, sans-serif;
+    }
+        /* Links - change color on hover */
+        .topnav a:hover {
+            background-color: #afafaf;
+            color: white;
+        }
+.columnMiddle {
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline-block;
+}
+    .columnMiddle h1 {
+        text-align: center;
+        font: 30px Tiltillium, sans-serif;
+        padding-left: 15px;
+        font-weight: bold;
+        color: #222D33;
+        padding-top: 5px;
+    }
+    .columnMiddle p {
+        text-align: left;
+        font: 18px Tiltillium, sans-serif;
+        margin-left: 50px;
+        margin-right: 50px;
+        /*border: solid;
+        border-color: white;*/
+        padding: 10px;
+    }
+.container {
+    background-color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-style: solid;
+    border-color: #32586d;
+    border-width: 15px;
+}
+#profile img {
+    width: 20%;
+    display: inline-block;
+    float: right;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.column {
+    float: left;
+    width: 45%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+    .column h1 {
+        color: #222D33;
+        font: 30px Tiltillium, sans-serif;
+        padding: 10px;
+        font-weight: bold;
+    }

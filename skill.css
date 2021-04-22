@@ -1,0 +1,59 @@
+﻿body {
+    background-color: #F1F1F1;
+}
+
+.header {
+    background-color: #E1D6CB;
+    background-image: url(Fiesta.png);
+    background-size: 100%;
+    text-align: center;
+    padding: 18px;
+    font: 25px Tiltillium, sans-serif;
+    color: white;
+    text-shadow: 6px 3px #75675f;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
+
+    /* Navbar links */
+    .topnav a {
+        float: left;
+        display: block;
+        color: grey;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font: 20px Tiltillium, sans-serif;
+    }
+        /* Links - change color on hover */
+        .topnav a:hover {
+            background-color: #afafaf;
+            color: white;
+        }
+
+.toptitle h1 {
+    text-align: center;
+    font: 35px Tiltillium, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 575px;
+    margin-right: 575px;
+    background-color: #b3a568;
+    border: solid;
+    border-radius: 10px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: darkslategrey;
+    text-align: center;
+    font: 10px Tiltillium, sans-serif;
+}

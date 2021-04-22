@@ -91,4 +91,22 @@ body {
         font: 30px Tiltillium, sans-serif;
         padding: 10px;
         font-weight: bold;
+        text-align: center;
     }
+.column p {
+    text-align: left;
+    font: 18px Tiltillium, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: darkslategrey;
+    text-align: center;
+    font: 10px Tiltillium, sans-serif;
+}
